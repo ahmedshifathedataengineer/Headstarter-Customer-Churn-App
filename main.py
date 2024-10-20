@@ -9,7 +9,7 @@ import utils as ut
 print(os.getenv("GROQ_API_KEY"))
 client = OpenAI(
     base_url="https://api.groq.com/openai/v1",
-    api_key=os.getenv("GROQ_API_KEY"))
+    api_key='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')
 
 
 def load_model(filename):
